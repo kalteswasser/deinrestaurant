@@ -16,6 +16,11 @@ img {
   width: 50%;
 }
 
+.divcent{
+  text-align: center;
+
+}
+
 .mainhead{
     text-align: center;
     height: 100px;
