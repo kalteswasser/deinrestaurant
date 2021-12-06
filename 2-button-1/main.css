@@ -18,7 +18,7 @@ img {
 
 .mainhead{
     text-align: center;
-    height: 200px;
+    height: 100px;
     position: relative;
 
 
@@ -30,7 +30,6 @@ img {
 }
 .btn {
   background-color: #E31E11;
-  border-radius: 5px;
   border-bottom: 4px solid #E31E11;
   color: #fff;
   padding: 15px 20px;
