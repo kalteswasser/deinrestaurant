@@ -50,7 +50,7 @@ $(document).ready(function(){
 
   // 1-3 Fnc
   $('.com').click(function(){
-    $('#linkBtn').attr("href","unhappy.html")
+    $('#linkBtn').attr("href","https://form.jotform.com/213604330292345")
   })
   // 4-5 Fnc
   $('.net').click(function(){
