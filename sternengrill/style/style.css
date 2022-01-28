@@ -1,0 +1,79 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.redirection{
+  text-align: center;
+}
+
+
+body{
+    background-color: #EDD20C;
+}
+html, body{
+    overflow-x: hidden !important;
+}
+.cardSection {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-fluid.user {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.img-fluid.dropbox {
+	width: 80px;
+}
+.fs-18{
+    font-size: 18px;
+}
+
+/* Rating Star Widgets Style */
+.rating-stars ul {
+    list-style-type:none;
+    padding:0;
+  }
+  .rating-stars ul > li.star {
+    display:inline-block;
+    
+  }
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+	font-size: 30px;
+	color: #ccc;
+	height: 50px;
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+  
+  /* Hover state of the stars */
+  .rating-stars ul > li.star.hover > i.fa {
+    color:#FFCC36;
+  }
+  
+  /* Selected state of the stars */
+  .rating-stars ul > li.star.selected > i.fa {
+    color:#F37D1A;
+    background-color: #F9EAE1;
+  }
+  
+ textarea{
+     background-color: #EFF1F5 !important;
+     border: unset !important;
+ }
+ .btn-primary{
+     background-color: #14308d !important;
+     border: unset;
+     font-size: 20px;
+ }
+ .form-control:focus{
+     outline: unset !important;
+     box-shadow: unset !important;
+ }
